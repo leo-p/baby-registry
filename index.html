@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .main-section-space {
+            width: 20%;
+        }
+
+        .main-section {
+            max-width: 800px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .flex-container>a {
+            background-color: white;
+            flex-grow: 1;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+            color: black;
+            text-decoration: none;
+            border-style: solid;
+            border-width: 3px;
+            border-color: gray;
+        }
+
+        .flex-container>a:hover {
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.8);
+        }
+
+        .lydia-thumbnail {
+            max-height: 200px;
+            margin: 10px;
+        }
+
+        .head-section {
+            font-size: xx-large
+        }
+
+        .introduction {
+            column-count: 2;
+            column-rule-style: solid;
+            column-rule-width: 1px;
+            font-size: large;
+            text-align: justify;
+            break-after: always;
+        }
+
+        hr {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .signature {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-section-space"></div>
+    <div class="main-section">
+        <div class="head-section">
+            👶 Welcome to the Babychoux 🇫🇷/🇺🇸
+        </div>
+        <hr>
+        <div class="introduction">
+            <div>Pour préparer au mieux l'arrivée de ce babyboy à Brooklyn, nous avons préparé cette liste de naissance.
+                Si
+                vous souhaitez participer à un des articles, il suffit de cliquer dessus et vous serez redirigé vers une
+                cagnotte Lydia.</div>
+
+            <div>Pour simplifier la logistique, nous nous chargerons ensuite de la commande et de la livraison aux
+                États-Unis. Un grand merci pour vos attentions et nous avons hâte de vous retrouver en France!</div>
+
+            <div class="signature"><em>...with </em>❤️<em>, Marine & Léo</em></div>
+        </div>
+        <hr>
+        <div class="flex-container">
+            <a target="_blank" href="https://lydia-app.com/collect/poussette/fr">
+                <div>🛒 Poussette et couffin<br><img src="./resources/vista.png" class="lydia-thumbnail"></div>
+            </a>
+            <a target="_blank" href="https://lydia-app.com/collect/lit/fr">
+                <div>😴 Lit<br><img src="./resources/crib.png" class="lydia-thumbnail"></div>
+            </a>
+            <a target="_blank" href="https://lydia-app.com/collect/siege/fr">
+                <div>🚗 Siège auto<br><img src="./resources/mesa.png" class="lydia-thumbnail"></div>
+            </a>
+            <a target="_blank" href="https://lydia-app.com/collect/tapis/fr">
+                <div>🧸 Tapis d'éveil<br><img src="./resources/tapis.png" class="lydia-thumbnail"></div>
+            </a>
+            <a target="_blank" href="https://lydia-app.com/collect/chaise/fr">
+                <div>🪑 Chaise haute<br><img src="./resources/chair.png" class="lydia-thumbnail"></div>
+            </a>
+            <a target="_blank" href="https://lydia-app.com/collect/porte-bebe/fr">
+                <div>👩‍🍼 Porte bébé<br><img src="./resources/cudl.png" class="lydia-thumbnail"></div>
+            </a>
+            <a target="_blank" href="https://lydia-app.com/collect/table/fr">
+                <div>💩 Table à langer<br><img src="./resources/peanut.png" class="lydia-thumbnail"></div>
+            </a>
+        </div>
+        <hr>
+        <div class="signature">Copyright Léo Paillier & Marine Ausset - 2022</div>
+    </div>
+    <div class="main-section-space"></div>
+</body>
+
+</html>
